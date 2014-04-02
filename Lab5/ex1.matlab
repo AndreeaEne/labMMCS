@@ -49,6 +49,24 @@
 		|		|	|	|
 		0------------------|-------|-----------|-------------------->
 				| h(i) |  h(m)		h(15)
-				x0	 x+x0
+				x0	x+x0
+				
+		Cum gasim factorul de scalare a histogramei frecventelor relative. Daca f este densitate,
+		atunci 
+		
+		∞
+		∫ f(x) dt = F(∞) = 1
+	       -∞
+	       
+	       Not l = h(2) - h(1)
+	       
+	       	N1/n * l + N2/n * l + ... + N15/n *l = l
+	       	
+	       -> Definim histograma asociata densitatii de probabilitate in care inaltimea dreptunghiului i devine 
+	       Ni/n *l
+	       
+	       frecventa asociata densitatii	N = N|(n*l)
+	       de probabilitate
+	       				     -> bar(h, N, 1)
 
 %}
