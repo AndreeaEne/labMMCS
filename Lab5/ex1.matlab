@@ -70,3 +70,16 @@
 	       				     -> bar(h, N, 1)
 
 %}
+
+u=rand(1, 10000);
+x=functie_inv(u, 5);
+[N h]= hist(x,15);
+% bar(X,N,1, 'r')
+X=0:0.1:1;
+Y=exppdf(X,1/5);
+% hold on
+
+N=N/(length(x)*(h(2)-h(1)));
+bar(h,N,1,'r');
+hold on
+plot(X,Y,'b')
