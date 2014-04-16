@@ -1,0 +1,61 @@
+GENERATE 58 
+QUEUE COADA 
+SEIZE BENZINA 
+DEPART COADA 
+ADVANCE 51
+RELEASE BENZINA 
+TERMINATE 1
+
+-------------------------
+
+GENERATE 58 
+QUEUE COADA 
+SEIZE BENZINA 
+DEPART COADA 
+ADVANCE 65 
+RELEASE BENZINA 
+TERMINATE 1
+
+-------------------------
+
+GENERATE 54, 4 
+QUEUE COADA 
+SEIZE BENZINA 
+DEPART COADA 
+ADVANCE 65 
+RELEASE BENZINA 
+TERMINATE 1
+
+-------------------------
+
+GENERATE 58 
+QUEUE MASINAR 
+SEIZE BENZINA 
+DEPART MASINAR
+ADVANCE 54 
+RELEASE BENZINA 
+TERMINATE 0
+
+GENERATE 50 
+QUEUE MASINAA 
+SEIZE BENZINA 
+DEPART MASINAA 
+ADVANCE 54 
+RELEASE BENZINA 
+TERMINATE 1
+
+-------------------------
+
+centrala storage 2
+hist table M1, 100, 100, 20
+generate 100, 60
+gate snf centrala, asteapta
+enter centrala
+advance 180, 60
+leave centrala
+terminate 1
+
+asteapta advance 300,60
+transfer, intrare
+
+
