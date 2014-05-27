@@ -34,7 +34,7 @@ end
 u = rand(1, 1000);
 [y] = functie_inv(u, 1);
 [N X] = hist(y, 15);
-bar(X, N, 1, 'b');
+bar(X, N, 1, 'b');c
 
 
 z = exppdf(u, 1);
