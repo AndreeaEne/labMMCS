@@ -12,7 +12,7 @@ SAVEVALUE numar+,1
 et TRANSFER 0.7,,departajare
 QUEUE coada_reteta
 SEIZE tranzactie_retete
-ADVANCE 8,1
+ADVANCE 8,2
 ADVANCE((V$plata)#2)
 DEPART coada_reteta
 RELEASE tranzactie_retete

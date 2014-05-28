@@ -7,9 +7,12 @@ Curs9 - part II
 
 hist table S$depozit,100,100,20
 depozit STORAGE 2000
+
 nivel_depozit VARIABLE S$depozit
 nivel_cerut EQU 800
+
 cerere VARIABLE RN1@24+40
+
 GENERATE 5
 ASSIGN 1,V$nivel_depozit
 TEST L P1,nivel_cerut,iesire
